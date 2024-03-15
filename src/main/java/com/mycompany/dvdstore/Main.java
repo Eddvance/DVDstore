@@ -1,17 +1,24 @@
 package com.mycompany.dvdstore;
 
+import com.mycompany.dvdstore.entity.Movie;
+import com.mycompany.dvdstore.repository.MovieRepository;
+import com.mycompany.dvdstore.service.MovieService;
+
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        Scanner entry=new Scanner(System.in);
+        System.out.println("What is the title ?");
+        String titre1= entry.nextLine();
+        System.out.println("What is the genre ?");
+        String genre1= entry.nextLine();
+
+        Movie movie1= new Movie(titre1,genre1);
+        MovieService movieService = new MovieService();
+        movieService.registerMovie(movie1);
     }
 }

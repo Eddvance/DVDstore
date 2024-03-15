@@ -1,5 +1,5 @@
 
-f
-java:S3457	"%String contains no format specifiers.(Šª„ıÿÿÿÿJ$541a9146-69df-4106-986d-772f53480f70
-k	java:S106	"+Replace this use of System.out by a logger.(Šª„ıÿÿÿÿJ$902fc2eb-89cf-4c8d-b3fd-b9fd8156eca5
-k	java:S106"+Replace this use of System.out by a logger.(Ğö¶üÿÿÿÿJ$3880e73e-b5ff-47b7-a360-71c53dd08105
+m	java:S106"+Replace this use of System.out by a logger.(ƒ·Ÿª8¸½Ùšä1J$b2e136bf-95ac-41ce-9bac-865b053c98c5
+r	java:S106"+Replace this use of System.out by a logger.(¬ŞÀåøÿÿÿÿ8¹½Ùšä1J$d3ae7a6a-19a7-40e2-9c63-e864e679258e
+k
+java:S1128"NRemove this unused import 'com.mycompany.dvdstore.repository.MovieRepository'.(¯£Ü8äšäšä1
