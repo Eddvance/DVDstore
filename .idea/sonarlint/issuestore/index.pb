@@ -13,3 +13,7 @@ Dsrc/main/java/com/mycompany/dvdstore/repository/MovieRepository.java,4/a/4ac7e
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+t
+Dsrc/main/java/com/mycompany/dvdstore/controller/MovieController.java,4/9/4911970623c59dea16259060ba0b374b29979483
+z
+Jsrc/main/java/com/mycompany/dvdstore/repository/GoLiveMovieRepository.java,8/3/83863ee1949eaeb25e339ea4f3571747ec3f1836

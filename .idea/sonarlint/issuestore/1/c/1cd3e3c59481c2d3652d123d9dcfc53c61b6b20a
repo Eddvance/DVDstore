@@ -1,5 +1,9 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(ƒ·Ÿª8¸½Ùšä1J$b2e136bf-95ac-41ce-9bac-865b053c98c5
-r	java:S106"+Replace this use of System.out by a logger.(¬ŞÀåøÿÿÿÿ8¹½Ùšä1J$d3ae7a6a-19a7-40e2-9c63-e864e679258e
-k
-java:S1128"NRemove this unused import 'com.mycompany.dvdstore.repository.MovieRepository'.(¯£Ü8äšäšä1
+ƒ
+java:S1128"@Remove this unused import 'com.mycompany.dvdstore.entity.Movie'.(œ–¯ç8–À¸Şä1J$0485f4b6-a518-40ff-9504-82f8a8f1ab3b
+‘
+java:S1128"NRemove this unused import 'com.mycompany.dvdstore.repository.MovieRepository'.(¯£Ü8–À¸Şä1J$ba22e9ec-d0e0-4ad4-8769-9f32566dd81d
+‹
+java:S1128"HRemove this unused import 'com.mycompany.dvdstore.service.MovieService'.(Ï¾8–À¸Şä1J$dd55cce0-9c3f-4fbf-8b1e-a107b03be325
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8–À¸Şä1J$81b2b420-dbbc-451c-bf63-f2dcaf2a0ecf
