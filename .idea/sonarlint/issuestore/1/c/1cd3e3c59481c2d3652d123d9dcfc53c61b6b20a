@@ -1,9 +1,9 @@
 
 ƒ
-java:S1128"@Remove this unused import 'com.mycompany.dvdstore.entity.Movie'.(œ–¯ç8–À¸Şä1J$0485f4b6-a518-40ff-9504-82f8a8f1ab3b
+java:S1128"@Remove this unused import 'com.mycompany.dvdstore.entity.Movie'.(œ–¯ç8–À¸Şä1J$c451129e-e055-4167-8350-35580d9814f8
 ‘
-java:S1128"NRemove this unused import 'com.mycompany.dvdstore.repository.MovieRepository'.(¯£Ü8–À¸Şä1J$ba22e9ec-d0e0-4ad4-8769-9f32566dd81d
+java:S1128"NRemove this unused import 'com.mycompany.dvdstore.repository.MovieRepository'.(¯£Ü8–À¸Şä1J$2b52cf7c-28d2-420a-af5d-eef8f79ee34c
 ‹
-java:S1128"HRemove this unused import 'com.mycompany.dvdstore.service.MovieService'.(Ï¾8–À¸Şä1J$dd55cce0-9c3f-4fbf-8b1e-a107b03be325
+java:S1128"HRemove this unused import 'com.mycompany.dvdstore.service.MovieService'.(Ï¾8–À¸Şä1J$63c096ca-8db8-48e8-a5bd-bb3d0871433c
 v
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8–À¸Şä1J$81b2b420-dbbc-451c-bf63-f2dcaf2a0ecf
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8–À¸Şä1J$17169482-bfec-4ae5-9816-24bce16a5f9f

@@ -12,13 +12,21 @@ public class MovieController {
 
     public void addUsingConsole(){
 
-        Movie movie1 = new Movie();
-        System.out.println("What is the title ?");
-        String titre1= entry.nextLine();
-        System.out.println("What is the genre ?");
-        String genre1= entry.nextLine();
-        movie1.setTitle(titre1);movie1.setGenre(genre1);
+        Movie movie = new Movie();
+        System.out.println("How many movie(s) have to add ?");
+        int nbMovies=entry.nextInt();
 
-        movieService.registerMovie(movie1);
+        for(int i=0;i<nbMovies;i++) {
+
+            System.out.println("What is the title ?");
+            String titre = entry.nextLine();
+            movie.setTitle(titre);
+            System.out.println("What is the genre ?");
+            String genre = entry.nextLine();
+
+
+            movie.setGenre(genre);
+            movieService.registerMovie(movie);
+        }
     }
 }
