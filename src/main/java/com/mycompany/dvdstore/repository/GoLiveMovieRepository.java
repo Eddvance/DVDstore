@@ -14,10 +14,14 @@ public class GoLiveMovieRepository {
             writer=new FileWriter("/Users/eddbea/IdeaProjects/DVDstore/Movies.txt",true);
             //writer.write("test ecriture33");
             writer.write(movie.getTitle()+";"+movie.getGenre());
+            writer.write("\n");
             writer.close();
+            //writer.flush();
         }
+
         catch (IOException e){
             e.printStackTrace();
         }
+
     }
 }
