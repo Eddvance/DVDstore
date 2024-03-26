@@ -1,6 +1,4 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øğ·¿å1J$9832f71e-4619-40b7-a7ad-0c224ae01c06
-m	java:S106"+Replace this use of System.out by a logger.(ƒ·Ÿª8ùğ·¿å1J$4c2e6e50-d577-4c11-b37a-7df36203486d
-r	java:S106"+Replace this use of System.out by a logger.(¬ŞÀåøÿÿÿÿ8ùğ·¿å1J$84d1e606-6916-430f-a59d-dfa4b3d885a4
-e
-java:S1128"HRemove this unused import 'com.mycompany.dvdstore.service.MovieService'.(Ï¾8‰ãÒ¿å1
+r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øğ·¿å1J$5e8ba66e-42c3-4eb7-a15e-529b55e8cb55
+m	java:S106"+Replace this use of System.out by a logger.(ƒ·Ÿª8ùğ·¿å1J$6c91a019-9c2f-4c42-b494-0207c452cf9e
+r	java:S106!"+Replace this use of System.out by a logger.(¬ŞÀåøÿÿÿÿ8ùğ·¿å1J$7907ef07-d27e-445a-8700-af667e8cd83b

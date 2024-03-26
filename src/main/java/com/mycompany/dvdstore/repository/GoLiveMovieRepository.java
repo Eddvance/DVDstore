@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class GoLiveMovieRepository implements MovieRepositoryInterface{
 
+
     @Override
     public void add(Movie movie){
 
@@ -23,6 +24,6 @@ public class GoLiveMovieRepository implements MovieRepositoryInterface{
         catch (IOException e){
             e.printStackTrace();
         }
-
+        System.out.println("The movie "+movie.getTitle()+" has been added.");
     }
 }

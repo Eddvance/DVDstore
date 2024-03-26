@@ -1,5 +1,6 @@
 
 
-java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(õÚ§Ìúÿÿÿÿ8¾¦—³å1J$76097da6-e153-4d34-8f62-b568cd364180
-~	java:S125"<This block of commented-out lines of code should be removed.(èœùî8Á¦—³å1J$16f4263c-cfb4-4d4a-9124-ea42e819d9db
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8´Ğ˜³å1J$612ddb57-5d33-4779-bd30-0d0bf9152f64
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(õÚ§Ìúÿÿÿÿ8¾¦—³å1J$f08716f8-3254-4a4a-a1bb-bf13d38c8ff3
+~	java:S125"<This block of commented-out lines of code should be removed.(èœùî8Á¦—³å1J$b97ff81e-5972-4f24-b3a5-4dbb26e5e31e
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8´Ğ˜³å1J$bb42fd28-119a-4466-9110-eceb21c8da44
+m	java:S106"+Replace this use of System.out by a logger.(«ù¡à8ÿüİŞç1J$2741cdfb-8423-4499-9152-84ea3bd5fcc1
