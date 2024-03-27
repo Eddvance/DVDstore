@@ -20,11 +20,9 @@ public class FileMovieRepository implements MovieRepositoryInterface{
 
     @Override
     public void add(Movie movie){
-// writer=new FileWriter("/Users/eddbea/IdeaProjects/DVDstore/Movies.txt",true);
-//new FileWriter(file,true);
+
         try {
             FileWriter writer= new FileWriter (file,true);
-            //writer.write("test ecriture33");
             writer.write(movie.getTitle()+";"+movie.getGenre());
             writer.write("\n");
             writer.close();

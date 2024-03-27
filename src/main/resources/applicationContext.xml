@@ -6,7 +6,7 @@
 
     <bean class="com.mycompany.dvdstore.controller.MovieController">
         <property name="movieService" ref="movieService"/>
-        <property name="file" value=""/Users/eddbea/IdeaProjects/DVDstore/core2txt.txt"/>"
+
     </bean>
 
     <bean id="movieService" class="com.mycompany.dvdstore.service.DefaultMovieService">
@@ -14,6 +14,6 @@
     </bean>
 
     <bean id="movieRepository" class="com.mycompany.dvdstore.repository.FileMovieRepository">
-
+        <property name="file" value="/Users/eddbea/IdeaProjects/DVDstore/DVDstoreTxtCsv.csv"/>
     </bean>
 </beans>
