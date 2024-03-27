@@ -2,17 +2,28 @@ package com.mycompany.dvdstore.repository;
 
 import com.mycompany.dvdstore.entity.Movie;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class FileMovieRepository implements MovieRepositoryInterface{
 
+    private File file;
+
+    public File getFile() {
+        return file;
+    }
+
+    public void setFile(File file) {
+        this.file = file;
+    }
+
     @Override
     public void add(Movie movie){
-
-        FileWriter writer;
-        try{
-            writer=new FileWriter("/Users/eddbea/IdeaProjects/DVDstore/Movies.txt",true);
+// writer=new FileWriter("/Users/eddbea/IdeaProjects/DVDstore/Movies.txt",true);
+//new FileWriter(file,true);
+        try {
+            FileWriter writer= new FileWriter (file,true);
             //writer.write("test ecriture33");
             writer.write(movie.getTitle()+";"+movie.getGenre());
             writer.write("\n");
