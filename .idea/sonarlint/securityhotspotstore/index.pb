@@ -53,3 +53,12 @@ Q.idea/sonarlint/securityhotspotstore/4/9/4911970623c59dea16259060ba0b374b299794
 Q.idea/sonarlint/securityhotspotstore/f/d/fd0e2f54f2a958974d5fca6b0a0280f5db1da88b,c/7/c7929f7f2d3f40e95169e496e9e39a20dc4c77eb
 Å
 Q.idea/sonarlint/securityhotspotstore/4/a/4ac7e59c64daee84f3feae305226fd042cc83c79,d/c/dcaf8599f9e8ff50e6cdcc076eed3b5f3079649c
+x
+Hsrc/main/java/com/mycompany/dvdstore/repository/FileMovieRepository.java,2/a/2a3776ae045bfa9bddd7beffc4941c7cd98fa587
+z
+Jsrc/main/java/com/mycompany/dvdstore/repository/MemoryMovieRepository.java,3/9/39b5cfd5a00fbbbe6cf1cd65c146c18cd531cfc7
+u
+Esrc/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java,3/7/3742f75ed4536e4d4676475c08823f997cc7fb66
+:
+
+movies.txt,b/5/b578148a55535a2cf04234b4cbff58c4375308db
