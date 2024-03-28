@@ -1,4 +1,6 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øð·¿å1J$c873fccb-df24-4864-bd77-938ec24e4c49
-m	java:S106"+Replace this use of System.out by a logger.(ƒ·Ÿª8ùð·¿å1J$4d9ae218-3c67-48f9-89fe-b2ede06480cb
-r	java:S106!"+Replace this use of System.out by a logger.(¬ÞÀåøÿÿÿÿ8ùð·¿å1J$9bedab83-f745-4a0e-8d12-5c22bb692e1c
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8Á÷û«è1J$4225a234-c4d1-47f8-9780-10ccb4caa689
+r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øð·¿å1J$6d873784-677f-4e66-a44a-5b264ff39b3e
+m	java:S106"+Replace this use of System.out by a logger.(ƒ·Ÿª8ùð·¿å1J$886ef358-6b97-4ef9-ae04-db236c80e19f
+r	java:S106#"+Replace this use of System.out by a logger.(¬ÞÀåøÿÿÿÿ8ùð·¿å1J$2cfbabb0-2e5c-4fbf-b342-0ba5c1996342
