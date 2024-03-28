@@ -8,6 +8,7 @@
                                 http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
+    <context:property-placeholder location="classpath:application.properties"/>
 
     <bean class="com.mycompany.dvdstore.controller.MovieController">
     </bean>
