@@ -1,6 +1,6 @@
 
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8Á÷û«è1J$4225a234-c4d1-47f8-9780-10ccb4caa689
-r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øð·¿å1J$6d873784-677f-4e66-a44a-5b264ff39b3e
-m	java:S106"+Replace this use of System.out by a logger.(ƒ·Ÿª8ùð·¿å1J$886ef358-6b97-4ef9-ae04-db236c80e19f
-r	java:S106#"+Replace this use of System.out by a logger.(¬ÞÀåøÿÿÿÿ8ùð·¿å1J$2cfbabb0-2e5c-4fbf-b342-0ba5c1996342
+r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øð·¿å1J$ef54a851-bb62-428c-8a5c-d429ff939bff
+m	java:S106 "+Replace this use of System.out by a logger.(ƒ·Ÿª8ùð·¿å1J$d1e5895c-d032-4940-8add-19c4741b22a8
+r	java:S106#"+Replace this use of System.out by a logger.(¬ÞÀåøÿÿÿÿ8ùð·¿å1J$fa813410-d7f4-4471-a600-b8252d8c8617
+›
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8ˆÅ•°è1J$5ee304fe-60ba-49fc-b0eb-799f37db28cc
