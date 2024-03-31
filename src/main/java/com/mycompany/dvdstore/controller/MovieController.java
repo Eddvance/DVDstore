@@ -16,6 +16,7 @@ public class MovieController {
 
     private final MovieServiceInterface movieService;
 
+
     public MovieServiceInterface getMovieService() {
         return movieService;
     }
