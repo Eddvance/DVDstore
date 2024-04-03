@@ -16,9 +16,8 @@ public class App
         //new FileWriter(file,true);
         //ApplicationContext context2=new ClassPathXmlApplicationContext("applicationContext.xml");
         //ApplicationContext context = new AnnotationConfigApplicationContext(App.class);
-        ApplicationContext context = SpringApplication.run(App.class);
+        ApplicationContext context = SpringApplication.run(App.class, args);
         MovieController movieController = context.getBean(MovieController.class);
-
         movieController.addUsingConsole();
     }
 }
