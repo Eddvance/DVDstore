@@ -5,7 +5,7 @@ import com.mycompany.dvdstore.repository.MovieRepositoryInterface;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DefaultMovieService implements MovieServiceInterface{
+public class DefaultMovieService implements MovieServiceInterface {
 
     public DefaultMovieService(MovieRepositoryInterface movieRepository) {
         this.movieRepository = movieRepository;
@@ -18,7 +18,7 @@ public class DefaultMovieService implements MovieServiceInterface{
     }
 
     @Override
-    public void registerMovie(Movie movie){
-      movieRepository.add(movie);
+    public void registerMovie(Movie movie) {
+        movieRepository.add(movie);
     }
 }

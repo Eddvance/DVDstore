@@ -24,19 +24,17 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     }
 
     @Override
-    public void add(Movie movie){
+    public void add(Movie movie) {
 
         try {
-            FileWriter writer= new FileWriter (file,true);
-            writer.write(movie.getTitle()+";"+movie.getGenre());
+            FileWriter writer = new FileWriter(file, true);
+            writer.write(movie.getTitle() + ";" + movie.getGenre());
             writer.write("\n");
             writer.close();
             //writer.flush();
-        }
-
-        catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("The movie "+movie.getTitle()+" has been added.");
+        System.out.println("The movie " + movie.getTitle() + " has been added.");
     }
 }
