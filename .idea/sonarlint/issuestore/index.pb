@@ -57,3 +57,5 @@ T
 $src/main/resources/static/index.html,5/0/50cdafbf7d475900dd881fa999628076a8edd192
 Y
 )src/main/resources/application.properties,0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284
+A
+static/index.html,b/d/bd1335292519bbb90a7518e3aee1539f47a6149f
