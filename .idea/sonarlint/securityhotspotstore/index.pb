@@ -50,5 +50,6 @@ movies.txt,b/5/b578148a55535a2cf04234b4cbff58c4375308db
 Msrc/main/java/com/mycompany/dvdstore/repository/file/FileMovieRepository.java,0/3/03b37e176dbf368b38d5c33017ff8daa763f0791
 Å
 Qsrc/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java,0/8/0881e0d3c47d77107015fe7ac600c1271968e655
-c
-3src/main/java/com/mycompany/dvdstore/AppConfig.java,d/4/d4132bb5072ec38d407432ae7cce14d5e7b5ad55
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
