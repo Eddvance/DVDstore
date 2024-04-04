@@ -59,3 +59,5 @@ Y
 )src/main/resources/application.properties,0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284
 A
 static/index.html,b/d/bd1335292519bbb90a7518e3aee1539f47a6149f
+v
+Fsrc/main/java/com/mycompany/dvdstore/controller/AboutUsController.java,3/6/369adb4dc80f9d20b0051aad4ef4f674ddf7b484
