@@ -53,3 +53,7 @@ Qsrc/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.ja
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+T
+$src/main/resources/static/index.html,5/0/50cdafbf7d475900dd881fa999628076a8edd192
+Y
+)src/main/resources/application.properties,0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284

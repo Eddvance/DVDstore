@@ -1,6 +1,4 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øð·¿å1J$db993968-c9d4-4a1a-8025-02e91bd1c0c2
-m	java:S106!"+Replace this use of System.out by a logger.(ƒ·Ÿª8ùð·¿å1J$5b175772-3710-47db-820c-19a256de49d6
-r	java:S106$"+Replace this use of System.out by a logger.(¬ÞÀåøÿÿÿÿ8ùð·¿å1J$4e38e71e-8b16-410c-a209-fa1f0eb45b4b
-›
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8ˆÅ•°è1J$8b1e4cb0-92f0-4541-bb6e-e2ee518d5ba3
+r	java:S106"+Replace this use of System.out by a logger.(’Öé»øÿÿÿÿ8øð·¿å1J$2684a0af-9b36-4e2c-a498-a6198d8ae4aa
+m	java:S106 "+Replace this use of System.out by a logger.(ƒ·Ÿª8ùð·¿å1J$9a2e6ac0-3605-4796-9d0d-9714134698c3
+r	java:S106#"+Replace this use of System.out by a logger.(¬ÞÀåøÿÿÿÿ8ùð·¿å1J$2aac224f-4cc5-4e15-8bd0-ddcdd1349e21
