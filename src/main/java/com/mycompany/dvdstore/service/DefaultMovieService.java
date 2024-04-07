@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class DefaultMovieService implements MovieServiceInterface {
 
+    private final MovieRepositoryInterface movieRepository;
+
     public DefaultMovieService(MovieRepositoryInterface movieRepository) {
         this.movieRepository = movieRepository;
     }
-
-    private final MovieRepositoryInterface movieRepository;
 
     public MovieRepositoryInterface getMovieRepository() {
         return movieRepository;
