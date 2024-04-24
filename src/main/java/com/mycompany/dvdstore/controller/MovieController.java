@@ -35,7 +35,6 @@ public class MovieController {
             System.out.println("What is the genre ?");
             String genre = entry.nextLine();
             movie.setGenre(genre);
-
             movieService.registerMovie(movie);
         }
     }
