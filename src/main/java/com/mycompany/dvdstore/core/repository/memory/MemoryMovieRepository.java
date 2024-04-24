@@ -1,8 +1,7 @@
-package com.mycompany.dvdstore.repository.memory;
+package com.mycompany.dvdstore.core.repository.memory;
 
-import com.mycompany.dvdstore.entity.Movie;
-import com.mycompany.dvdstore.repository.MovieRepositoryInterface;
-import org.springframework.stereotype.Repository;
+import com.mycompany.dvdstore.core.entity.Movie;
+import com.mycompany.dvdstore.core.repository.MovieRepositoryInterface;
 
 import java.util.ArrayList;
 import java.util.List;

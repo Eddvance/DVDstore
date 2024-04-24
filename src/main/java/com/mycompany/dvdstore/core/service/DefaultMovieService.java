@@ -1,7 +1,7 @@
-package com.mycompany.dvdstore.service;
+package com.mycompany.dvdstore.core.service;
 
-import com.mycompany.dvdstore.entity.Movie;
-import com.mycompany.dvdstore.repository.MovieRepositoryInterface;
+import com.mycompany.dvdstore.core.entity.Movie;
+import com.mycompany.dvdstore.core.repository.MovieRepositoryInterface;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
