@@ -22,4 +22,10 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
     public List<Movie> list() {
         return movies;
     }
+
+    @Override
+    public Movie getById(Long id) {
+        return movies.stream().filter(m-> m.getId()==id).findFirst().get();
+        //return movies.stream().filter(m-> m.getId()==id).findFirst().orElse(null);
+    }
 }

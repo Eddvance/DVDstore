@@ -40,16 +40,17 @@ public class FileMovieRepository implements MovieRepositoryInterface {
 
     @Override
     public List<Movie> list() {
-        List<Movie> movies=new ArrayList<>();
+        List<Movie> movies = new ArrayList<>();
 
-        try(BufferedReader br = new BufferedReader(new FileReader(file))) {
-            for(String line; (line = br.readLine()) != null; ) {
-                final Movie movie=new Movie();
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            for (String line; (line = br.readLine()) != null; ) {
+                final Movie movie = new Movie();
                 final String[] titreEtGenre = line.split("\\;");
-                movie.setTitle(titreEtGenre[0]);
-                if(titreEtGenre.length>1) {
-                    movie.setGenre(titreEtGenre[1]);
-                } else{
+                movie.setId(Long.parseLong(titreEtGenre[0]));
+                movie.setTitle(titreEtGenre[1]);
+                if (titreEtGenre.length > 2) {
+                    movie.setGenre(titreEtGenre[2]);
+                } else {
                     movie.setGenre("");
                 }
                 movies.add(movie);
@@ -60,4 +61,31 @@ public class FileMovieRepository implements MovieRepositoryInterface {
             e.printStackTrace();
         }
         return movies;
-    }    }
+    }
+
+    @Override
+    public Movie getById(Long id) {
+        final Movie movie = new Movie();
+        movie.setId(id);
+        try(BufferedReader br =new BufferedReader(new FileReader(file))){
+            for(String line; (line=br.readLine()) !=null;){
+                final String[] allProperties = line.split("\\;");
+                final long nextMovieId=Long.parseLong(allProperties[0]);
+                if(nextMovieId==id){
+                    movie.setTitle(allProperties[1]);
+                    movie.setGenre(allProperties[2]);
+                    movie.setSummary(allProperties[3]);
+                    return movie;
+                }
+            }
+        }
+        catch (FileNotFoundException e){e.printStackTrace();}
+        catch (IOException e){e.printStackTrace();}
+        catch (NumberFormatException e){System.err.println("A movie from the file does not have a proper id");e.printStackTrace();}
+
+        movie.setTitle("UNKNOW");
+        movie.setGenre("UNKNOW");
+        movie.setSummary("UNKNOW");
+        return movie;
+    }
+}
