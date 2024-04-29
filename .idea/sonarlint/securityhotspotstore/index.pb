@@ -35,7 +35,5 @@ Vsrc/main/java/com/mycompany/dvdstore/core/repository/memory/MemoryMovieReposito
 Rsrc/main/java/com/mycompany/dvdstore/core/repository/MovieRepositoryInterface.java,3/b/3bfe25215a1c73dbdbae60614e2f54908324b578
 €
 Psrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/MovieController.java,2/1/2110464dbf210666e79db4fb464265d6c8087243
-‚
-Rsrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/AboutUsController.java,5/8/58d37c73a90c99be801cad07c90467948c24d091
 
 Osrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/HomeController.java,0/a/0a370a543bc3e6ff411fe6cfa757bda2b5e279e1
