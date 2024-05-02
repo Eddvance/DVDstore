@@ -26,9 +26,15 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     @Override
     public void add(Movie movie) {
 
+        long lastId=list().stream().map(Movie::getId).max(Long::compare).orElse(0L);
+        movie.setId(lastId+1);
+        /*long lastId = list.stream().mapToLong(Movie::getId).max().orElse(0L);
+        movie.setId(lastId + 1);*/
+
+        FileWriter writer;
         try {
-            FileWriter writer = new FileWriter(file, true);
-            writer.write(movie.getTitle() + ";" + movie.getGenre());
+            writer= new FileWriter(file, true);
+            writer.write(movie.getId()+";"+ movie.getTitle() + ";" + movie.getGenre()+";"+movie.getSummary());
             writer.write("\n");
             writer.close();
             //writer.flush();
@@ -48,11 +54,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
                 final String[] titreEtGenre = line.split("\\;");
                 movie.setId(Long.parseLong(titreEtGenre[0]));
                 movie.setTitle(titreEtGenre[1]);
-                if (titreEtGenre.length > 2) {
-                    movie.setGenre(titreEtGenre[2]);
-                } else {
-                    movie.setGenre("");
-                }
+                movie.setGenre(titreEtGenre[2]);
                 movies.add(movie);
             }
         } catch (FileNotFoundException e) {
@@ -81,8 +83,8 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         }
         catch (FileNotFoundException e){e.printStackTrace();}
         catch (IOException e){e.printStackTrace();}
-        catch (NumberFormatException e){System.err.println("A movie from the file does not have a proper id");e.printStackTrace();}
-
+        catch (NumberFormatException e){System.err.println("A movie from the file does not have a proper id");e.printStackTrace();
+        }
         movie.setTitle("UNKNOW");
         movie.setGenre("UNKNOW");
         movie.setSummary("UNKNOW");
