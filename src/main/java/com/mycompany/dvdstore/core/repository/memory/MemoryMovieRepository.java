@@ -13,11 +13,11 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
     private static long lastId = 0L;
 
     @Override
-    public void add(Movie movie) {
+    public Movie add(Movie movie) {
         movie.setId(lastId++);
         movies.add(movie);
         System.out.println("The movie " + movie.getTitle() + ";" + movie.getGenre() + " has been added.");
-
+        return movie;
     }
 
     @Override

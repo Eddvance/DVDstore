@@ -24,12 +24,11 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     }
 
     @Override
-    public void add(Movie movie) {
+    public Movie add(Movie movie) {
 
         long lastId=list().stream().map(Movie::getId).max(Long::compare).orElse(0L);
         movie.setId(lastId+1);
-        /*long lastId = list.stream().mapToLong(Movie::getId).max().orElse(0L);
-        movie.setId(lastId + 1);*/
+
 
         FileWriter writer;
         try {
@@ -42,6 +41,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
             e.printStackTrace();
         }
         System.out.println("The movie " + movie.getTitle() + " has been added.");
+        return movie;
     }
 
     @Override
