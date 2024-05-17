@@ -33,8 +33,8 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         FileWriter writer;
         try {
             writer= new FileWriter(file, true);
-            writer.write(movie.getId()+";"+ movie.getTitle() + ";" + movie.getGenre()+";"+movie.getSummary());
             writer.write("\n");
+            writer.write(movie.getId()+";"+ movie.getTitle() + ";" + movie.getGenre()+";"+movie.getSummary());
             writer.close();
             //writer.flush();
         } catch (IOException e) {
@@ -55,7 +55,6 @@ public class FileMovieRepository implements MovieRepositoryInterface {
                 movie.setId(Long.parseLong(titreEtGenre[0]));
                 movie.setTitle(titreEtGenre[1]);
                 movie.setGenre(titreEtGenre[2]);
-                movie.setSummary(titreEtGenre[3]);
                 movies.add(movie);
             }
         } catch (FileNotFoundException e) {
