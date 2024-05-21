@@ -20,9 +20,13 @@ S
 Vsrc/main/java/com/mycompany/dvdstore/core/repository/memory/MemoryMovieRepository.java,7/a/7ad41bbe78c91ee758681b0d0d5a8954fbc85f78
 ‚
 Rsrc/main/java/com/mycompany/dvdstore/core/repository/MovieRepositoryInterface.java,3/b/3bfe25215a1c73dbdbae60614e2f54908324b578
-€
-Psrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/MovieController.java,2/1/2110464dbf210666e79db4fb464265d6c8087243
-
-Osrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/HomeController.java,0/a/0a370a543bc3e6ff411fe6cfa757bda2b5e279e1
 ‚
 Rsrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/api/MovieResource.java,d/4/d49fbdff99b68f154ba654318c3921148eb3c99a
+
+Osrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/HomeController.java,0/a/0a370a543bc3e6ff411fe6cfa757bda2b5e279e1
+p
+@src/main/java/com/mycompany/dvdstore/DvdstoreWebApplication.java,8/7/87c3ea067a1412807d7a19b2cd68f64000a20f3a
+€
+Psrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/MovieController.java,2/1/2110464dbf210666e79db4fb464265d6c8087243
+‚
+Rsrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/AboutUsController.java,5/8/58d37c73a90c99be801cad07c90467948c24d091
