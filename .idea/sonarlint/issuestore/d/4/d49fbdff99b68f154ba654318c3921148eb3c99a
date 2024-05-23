@@ -1,6 +1,6 @@
 
-k	java:S106"+Replace this use of System.out by a logger.(™§¶ÁþÿÿÿÿJ$a6c21ea9-bb66-4926-ae8b-24da7b6ba3ff
+k	java:S106"+Replace this use of System.out by a logger.(™§¶ÁþÿÿÿÿJ$936cef91-36ad-4eeb-ba0e-36cea68791ff
 •
-java:S1128"YRemove this unused import 'com.mycompany.dvdstore.dvdstoreweb.controller.form.MovieForm'.(¡»öÑJ$11452418-be4c-40d3-ab2f-cb5d0f248c95
+java:S1128"YRemove this unused import 'com.mycompany.dvdstore.dvdstoreweb.controller.form.MovieForm'.(¡»öÑJ$0532e93b-34da-4c37-a565-7c6a770e61dc
 l
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿJ$0bf12969-cebf-45da-b01c-beb8751ab4ff
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±ÄøÿÿÿÿJ$509f48c3-350e-4c1c-a673-090a4cbdb40e

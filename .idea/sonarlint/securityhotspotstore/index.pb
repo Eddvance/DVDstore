@@ -82,3 +82,5 @@ Rsrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/api/MovieResource.j
 Osrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/form/MovieForm.java,d/4/d419c26123424a3f62484023ad628282cd891fdc
 €
 Psrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/MovieController.java,2/1/2110464dbf210666e79db4fb464265d6c8087243
+
+Osrc/main/java/com/mycompany/dvdstore/dvdstoreweb/controller/HomeController.java,0/a/0a370a543bc3e6ff411fe6cfa757bda2b5e279e1

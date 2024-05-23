@@ -14,9 +14,11 @@ import java.util.List;
 public class MovieRepository implements MovieRepositoryInterface {
 
     private final JdbcTemplate jdbcTemplate;
+
     public MovieRepository(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
+
     public JdbcTemplate getJdbcTemplate() {
         return jdbcTemplate;
     }
@@ -40,14 +42,14 @@ public class MovieRepository implements MovieRepositoryInterface {
     public List<Movie> list() {
         return jdbcTemplate.query("SELECT ID,TITLE,GENRE FROM MOVIE",
                 (rs, rowNum) -> new Movie(rs.getLong("ID"),
-                rs.getString("TITLE"),
-                rs.getString("GENRE")));
+                        rs.getString("TITLE"),
+                        rs.getString("GENRE")));
     }
 
     @Override
     public Movie getById(Long id) {
         return jdbcTemplate.queryForObject("SELECT ID,TITLE,GENRE,DESCRIPTION FROM MOVIE WHERE ID=?",
-                new Object[]{id},(rs,rowNum)->new Movie(rs.getLong("ID"),
+                new Object[]{id}, (rs, rowNum) -> new Movie(rs.getLong("ID"),
                         rs.getString("TITLE"),
                         rs.getString("GENRE"),
                         rs.getString("DESCRIPTION")));

@@ -14,16 +14,20 @@ public class Movie {
         this.id = id;
     }
 
-    public Movie(long id, String title, String genre, String description) {}
+    public Movie(long id, String title, String genre, String description) {
+        this.id = id;
+        this.title = title;
+        this.genre = genre;
+        this.description = description;
+    }
 
     public Movie(long id, String title, String genre) {
-
+        this.id = id;
+        this.title = title;
+        this.genre = genre;
     }
 
-    public Movie() {
-
-    }
-
+    public Movie() {}
 
     public String getDescription() {return description;}
 
