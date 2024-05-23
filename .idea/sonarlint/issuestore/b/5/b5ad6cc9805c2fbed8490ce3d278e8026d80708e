@@ -1,0 +1,12 @@
+
+
+java:S1192W"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8ÏĞãõô1J$55997df4-4fca-46f4-8eb8-c7c9efde8d1a
+
+java:S2095""HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8í±Œ§ú1J$b5e812d6-5c67-4fb3-ab81-b81f172a40a5
+ƒ	java:S125&"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8öĞãõô1J$494769ed-4d9c-4abc-9cf3-9cb4de045f1e
+m	java:S106*"+Replace this use of System.out by a logger.(«ù¡à8ùĞãõô1J$f732a934-aac4-4159-a41f-8d8542cb41db
+‡
+java:S2147="DCombine this catch with the one at line 59, which has the same body.(ï­£Ä8ÿĞãõô1J$67dadd40-d14a-4353-9a36-73b6ce909d11
+Œ
+java:S2147T"DCombine this catch with the one at line 83, which has the same body.(„±‹¹øÿÿÿÿ8‚Ñãõô1J$9bf79e3f-fab8-4baa-8c8e-4a2f5188eccd
+m	java:S106U"+Replace this use of System.err by a logger.(ŒÆÏÿ8„Ñãõô1J$879219a3-8d82-4880-b7bb-1a961ca3138c

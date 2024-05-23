@@ -3,13 +3,12 @@ package com.mycompany.dvdstore.core.repository.file;
 import com.mycompany.dvdstore.core.entity.Movie;
 import com.mycompany.dvdstore.core.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Repository;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
+//@Repository
 public class FileMovieRepository implements MovieRepositoryInterface {
 
     @Value("${movies.file.location}")
@@ -50,7 +49,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             for (String line; (line = br.readLine()) != null; ) {
-                final Movie movie = new Movie();
+                final Movie movie = new Movie(rs.getLong("ID"), rs.getString("TITLE"), rs.getString("GENRE"));
                 final String[] titreEtGenre = line.split("\\;");
                 movie.setId(Long.parseLong(titreEtGenre[0]));
                 movie.setTitle(titreEtGenre[1]);
@@ -67,7 +66,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
 
     @Override
     public Movie getById(Long id) {
-        final Movie movie = new Movie();
+        final Movie movie = new Movie(rs.getLong("ID"), rs.getString("TITLE"), rs.getString("GENRE"));
         movie.setId(id);
         try(BufferedReader br =new BufferedReader(new FileReader(file))){
             for(String line; (line=br.readLine()) !=null;){
