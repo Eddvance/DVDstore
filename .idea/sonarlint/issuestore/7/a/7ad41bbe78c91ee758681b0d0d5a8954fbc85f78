@@ -1,8 +1,8 @@
 
-Y
-java:S4973"<Strings and Boxed types should be compared using "equals()".(õ¹äü8ƒ²Œ§ú1
-m
-java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(õ¹äü8…²Œ§ú1
+
+java:S4973"<Strings and Boxed types should be compared using "equals()".(õ¹äü8ƒ²Œ§ú1J$cdd247b3-d903-4941-925d-a02b965193f7
+“
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(õ¹äü8…²Œ§ú1J$a4d47606-06ae-4b8f-8198-ac2e2fb67f0e
 y
-java:S2696"6Make the enclosing method "static" or remove this set.(ŒûàÒ8Ş‹êÔò1J$effa93b5-83b9-4972-96fe-3f3942317ffb
-r	java:S106"+Replace this use of System.out by a logger.(¼ó‹ëúÿÿÿÿ8Ş‹êÔò1J$0fd2c6a5-007c-4c13-8420-13f2c205b683
+java:S2696"6Make the enclosing method "static" or remove this set.(ŒûàÒ8Ş‹êÔò1J$94ba4adb-20ef-4863-a221-036f255ed7a9
+r	java:S106"+Replace this use of System.out by a logger.(¼ó‹ëúÿÿÿÿ8Ş‹êÔò1J$9fe0230d-0e1c-4156-b6bf-43f98d042e54

@@ -1,12 +1,13 @@
 
 
-java:S1192W"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8ÏĞãõô1J$55997df4-4fca-46f4-8eb8-c7c9efde8d1a
+java:S1192]"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8ğÇ§ú1J$8c7ee46a-9f19-41bb-99bc-65e5ca03d2a7
 
-java:S2095""HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8í±Œ§ú1J$b5e812d6-5c67-4fb3-ab81-b81f172a40a5
-ƒ	java:S125&"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8öĞãõô1J$494769ed-4d9c-4abc-9cf3-9cb4de045f1e
-m	java:S106*"+Replace this use of System.out by a logger.(«ù¡à8ùĞãõô1J$f732a934-aac4-4159-a41f-8d8542cb41db
+java:S2095""HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8ÛÉ¦§ú1J$24160ce7-1dca-45de-9398-e6ef2d1451e8
+ƒ	java:S125&"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8úÇ§ú1J$a3518991-1dd3-468b-a1ac-27f50cedcdd8
+m	java:S106*"+Replace this use of System.out by a logger.(«ù¡à8úÇ§ú1J$0a391dbe-37c4-40d3-8f1c-015dc89dfb6b
 ‡
-java:S2147="DCombine this catch with the one at line 59, which has the same body.(ï­£Ä8ÿĞãõô1J$67dadd40-d14a-4353-9a36-73b6ce909d11
-Œ
-java:S2147T"DCombine this catch with the one at line 83, which has the same body.(„±‹¹øÿÿÿÿ8‚Ñãõô1J$9bf79e3f-fab8-4baa-8c8e-4a2f5188eccd
-m	java:S106U"+Replace this use of System.err by a logger.(ŒÆÏÿ8„Ñãõô1J$879219a3-8d82-4880-b7bb-1a961ca3138c
+java:S2147="DCombine this catch with the one at line 59, which has the same body.(ï­£Ä8ûÇ§ú1J$67e41dad-3728-4fce-a07e-3f0c243ea05e
+l	java:S106@"+Replace this use of System.err by a logger.(æ‚õ8ÿÇ§ú1J$7cec74f8-f51f-4335-a0af-a94a910df8b9
+‡
+java:S2147W"DCombine this catch with the one at line 85, which has the same body.(ï­£Ä8şÇ§ú1J$562cd118-aa84-4642-96d0-7267eca0a9e9
+m	java:S106Z"+Replace this use of System.err by a logger.(¨ûÄ8Üä§ú1J$4e64c82b-b20e-44af-9514-760b4e2332a4

@@ -5,14 +5,8 @@ public class Movie {
     private String title;
     private String genre;
     private Long id;
-    private String summary;
+    private String description;
 
-    public Movie(String title, String genre, Long id, String summary) {
-        this.title = title;
-        this.genre = genre;
-        this.id = id;
-        this.summary = summary;
-    }
 
     public Movie(String title, String genre, Long id) {
         this.title = title;
@@ -22,10 +16,18 @@ public class Movie {
 
     public Movie(long id, String title, String genre, String description) {}
 
+    public Movie(long id, String title, String genre) {
 
-    public String getSummary() {return summary;}
+    }
 
-    public void setSummary(String summary) {this.summary = summary;}
+    public Movie() {
+
+    }
+
+
+    public String getDescription() {return description;}
+
+    public void setDescription(String description) {this.description = description;}
 
     public Long getId() {
         return id;
