@@ -1,13 +1,13 @@
 
 
-java:S1192^"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8²´ñËû1J$1f860508-fa87-4433-88c2-58cc290f16be
+java:S1192^"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8²´ñËû1J$48f8c43f-97cc-4c0d-a064-f94b5e69fdaf
 
-java:S2095#"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8Û¾ÌĞû1J$64339c5b-624b-4d56-a8e6-0f01b1d30411
-ƒ	java:S125'"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8Ç´ñËû1J$0ba4ed7e-cc7f-4827-9898-2a63b4d99197
-m	java:S106+"+Replace this use of System.out by a logger.(«ù¡à8È´ñËû1J$a550dd0e-0e43-4ac0-a49f-a9342efbf136
+java:S2095#"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8¶ÿØÔû1J$c017100f-e2c6-440d-93e9-0167b17e37ee
+ƒ	java:S125'"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8Ç´ñËû1J$05f29469-04f5-42b1-acff-5978b5a4fd99
+m	java:S106+"+Replace this use of System.out by a logger.(«ù¡à8È´ñËû1J$331c0496-5734-4652-a761-921c0883a500
 ‡
-java:S2147>"DCombine this catch with the one at line 60, which has the same body.(ï­£Ä8Ë´ñËû1J$97119787-10c7-422b-9568-bcb6caa64235
-m	java:S106A"+Replace this use of System.err by a logger.(¨ûÄ8İ´ñËû1J$48330dec-ec65-48a4-a405-46d458f283b7
+java:S2147>"DCombine this catch with the one at line 60, which has the same body.(ï­£Ä8Ë´ñËû1J$ff53dd25-ba35-4d1b-bd7b-146407d6df2d
+m	java:S106A"+Replace this use of System.err by a logger.(¨ûÄ8İ´ñËû1J$c076761e-7cd5-4fa4-8d58-2f4832391b00
 ‡
-java:S2147X"DCombine this catch with the one at line 86, which has the same body.(ï­£Ä8Ş´ñËû1J$54f136d1-79aa-42b4-92db-2089757354f5
-m	java:S106["+Replace this use of System.err by a logger.(¨ûÄ8á´ñËû1J$dc545500-4060-43d9-bea7-8d8d7f7db222
+java:S2147X"DCombine this catch with the one at line 86, which has the same body.(ï­£Ä8Ş´ñËû1J$e70c289c-fbd0-4108-83d6-e715fbc3067e
+m	java:S106["+Replace this use of System.err by a logger.(¨ûÄ8á´ñËû1J$202b78a0-d98e-4f76-a5e5-df85c2fc68ea
