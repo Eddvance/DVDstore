@@ -1,7 +1,0 @@
-
-‡
-java:S2259%"EA "NullPointerException" could be thrown; "getKey()" can return null.(¡æÁp8Â´‘¨ú1J$1cfc89f5-f793-416c-bea2-0f9dbb48269c
-‹
-java:S3252"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(–Øîá8±áŠ¨ú1J$ba1ebbd8-0b3a-42f2-bd17-f5f820cbb9ca
-~
-java:S18743"6Remove this use of "queryForObject"; it is deprecated.(ÇºÑÜúÿÿÿÿ8¶áŠ¨ú1J$6ea59f86-f0c5-4aae-b149-56ac2229f707

@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Value;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.StreamSupport;
 
 //@Repository
 public class FileMovieRepository implements MovieRepositoryInterface {
@@ -23,11 +25,10 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     }
 
     @Override
-    public Movie add(Movie movie) {
+    public Movie save(Movie movie) {
 
-        long lastId = list().stream().map(Movie::getId).max(Long::compare).orElse(0L);
+        long lastId = StreamSupport.stream(findAll().spliterator(), false).map(Movie::getId).max(Long::compare).orElse(0L);
         movie.setId(lastId + 1);
-
 
         FileWriter writer;
         try {
@@ -44,7 +45,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     }
 
     @Override
-    public List<Movie> list() {
+    public Iterable<Movie> findAll() {
         List<Movie> movies = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -61,14 +62,14 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         } catch (IOException e) {
             e.printStackTrace();
         } catch (NumberFormatException nb) {
-            System.err.println("A movie from the mfile does not have a proper id");
+            System.err.println("A movie from the file does not have a proper id");
             nb.printStackTrace();
         }
         return movies;
     }
 
     @Override
-    public Movie getById(Long id) {
+    public Optional<Movie> findById(Long id) {
         final Movie movie = new Movie();
         movie.setId(id);
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -79,7 +80,7 @@ public class FileMovieRepository implements MovieRepositoryInterface {
                     movie.setTitle(allProperties[1]);
                     movie.setGenre(allProperties[2]);
                     movie.setDescription(allProperties[3]);
-                    return movie;
+                    return Optional.of(movie);
                 }
             }
         } catch (FileNotFoundException e) {
@@ -93,6 +94,46 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         movie.setTitle("UNKNOW");
         movie.setGenre("UNKNOW");
         movie.setDescription("UNKNOW");
-        return movie;
+        return Optional.of(movie);
+    }
+
+    @Override
+    public boolean existsById(Long aLong) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public <S extends Movie> Iterable<S> saveAll(Iterable<S> iterable) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public Iterable<Movie> findAllById(Iterable<Long> iterable) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public long count() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void deleteById(Long aLong) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void delete(Movie movie) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void deleteAll(Iterable<? extends Movie> iterable) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void deleteAll() {
+        throw new UnsupportedOperationException();
     }
 }

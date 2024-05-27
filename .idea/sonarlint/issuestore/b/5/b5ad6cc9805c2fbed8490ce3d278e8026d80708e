@@ -1,13 +1,13 @@
 
 
-java:S1192]"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8ğÇ§ú1J$058310d4-70a7-46f2-a99a-a4ee01d9edd1
+java:S1192^"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8²´ñËû1J$1f860508-fa87-4433-88c2-58cc290f16be
 
-java:S2095""HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8ÛÉ¦§ú1J$5bd9a9a4-8ef9-40d1-8f36-58c919cf7023
-ƒ	java:S125&"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8úÇ§ú1J$8080edda-944d-4d6b-a31e-b397d0ae000c
-m	java:S106*"+Replace this use of System.out by a logger.(«ù¡à8úÇ§ú1J$3decfd96-9cd5-41c5-bfd7-129ca9107bc0
+java:S2095#"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8Û¾ÌĞû1J$64339c5b-624b-4d56-a8e6-0f01b1d30411
+ƒ	java:S125'"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8Ç´ñËû1J$0ba4ed7e-cc7f-4827-9898-2a63b4d99197
+m	java:S106+"+Replace this use of System.out by a logger.(«ù¡à8È´ñËû1J$a550dd0e-0e43-4ac0-a49f-a9342efbf136
 ‡
-java:S2147="DCombine this catch with the one at line 59, which has the same body.(ï­£Ä8ûÇ§ú1J$324ff37b-4215-4af6-8e70-e394791d6621
-l	java:S106@"+Replace this use of System.err by a logger.(æ‚õ8ÿÇ§ú1J$219707ab-c717-4d85-aa44-9498616ccd05
+java:S2147>"DCombine this catch with the one at line 60, which has the same body.(ï­£Ä8Ë´ñËû1J$97119787-10c7-422b-9568-bcb6caa64235
+m	java:S106A"+Replace this use of System.err by a logger.(¨ûÄ8İ´ñËû1J$48330dec-ec65-48a4-a405-46d458f283b7
 ‡
-java:S2147W"DCombine this catch with the one at line 85, which has the same body.(ï­£Ä8şÇ§ú1J$2ec39261-3aaa-4526-96f2-26836149fed6
-m	java:S106Z"+Replace this use of System.err by a logger.(¨ûÄ8Üä§ú1J$fb6e3a08-d55c-4347-8fec-50bed8c29a04
+java:S2147X"DCombine this catch with the one at line 86, which has the same body.(ï­£Ä8Ş´ñËû1J$54f136d1-79aa-42b4-92db-2089757354f5
+m	java:S106["+Replace this use of System.err by a logger.(¨ûÄ8á´ñËû1J$dc545500-4060-43d9-bea7-8d8d7f7db222

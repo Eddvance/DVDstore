@@ -1,14 +1,13 @@
-package com.mycompany.dvdstore.core.repository.memory;
+package com.mycompany.dvdstore.core.repository;
+/*
 
 import com.mycompany.dvdstore.core.entity.Movie;
-import com.mycompany.dvdstore.core.repository.MovieRepositoryInterface;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
 import java.sql.PreparedStatement;
-import java.util.List;
 
 @Repository
 public class MovieRepository implements MovieRepositoryInterface {
@@ -55,3 +54,4 @@ public class MovieRepository implements MovieRepositoryInterface {
                         rs.getString("DESCRIPTION")));
     }
 }
+ */
