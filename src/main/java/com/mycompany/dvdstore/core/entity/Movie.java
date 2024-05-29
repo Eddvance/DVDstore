@@ -1,10 +1,8 @@
 package com.mycompany.dvdstore.core.entity;
 
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Movie {
@@ -12,22 +10,37 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false, length = 20)
     private String title;
+    @Column(nullable = false, length = 20)
     private String genre;
     private String description;
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "ID_MAIN_ACTOR")
+    private Actor mainActor;
+    @ManyToMany
+    @JoinTable(
+            name = "MOVIE_SEC_ACTORS",
+            joinColumns = {@JoinColumn(name = "ID_MOVIE")},
+            inverseJoinColumns={@JoinColumn(name = "ID_ACTOR")}
+    )
+    private List<Actor> secondaryActors = new ArrayList<>();
 
+    @OneToMany(
+            fetch = FetchType.LAZY,
+            orphanRemoval = true,
+            mappedBy = "movie"
+    )
+private List<Review> reviews = new ArrayList<>();
 
-    public Movie(String title, String genre, Long id) {
-        this.title = title;
-        this.genre = genre;
-        this.id = id;
-    }
+    public Movie() {}
 
-    public Movie(long id, String title, String genre, String description) {
+    public Movie(long id, String title, String genre, String description, Actor mainActor, List<Actor> secondaryActors, List<Review> reviews) {
         this.id = id;
         this.title = title;
         this.genre = genre;
         this.description = description;
+        this.mainActor = mainActor;
     }
 
     public Movie(long id, String title, String genre) {
@@ -36,15 +49,36 @@ public class Movie {
         this.genre = genre;
     }
 
-    public Movie() {
-    }
-
     public String getDescription() {
         return description;
     }
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Actor getMainActor() {
+        return mainActor;
+    }
+
+    public void setMainActor(Actor mainActor) {
+        this.mainActor = mainActor;
+    }
+
+    public List<Actor> getSecondaryActors() {
+        return secondaryActors;
+    }
+
+    public void addSecondaryActors(Actor actor) {
+        this.secondaryActors.add(actor);
+    }
+
+    public List<Review> getReviews() {
+        return reviews;
+    }
+
+    public void addReviews(Review review) {
+        this.reviews.add(review);
     }
 
     public Long getId() {
