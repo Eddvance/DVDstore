@@ -22,11 +22,6 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
     }
 
     @Override
-    public Iterable<Movie> findAll() {
-        return movies;
-    }
-
-    @Override
     public <S extends Movie> Iterable<S> saveAll(Iterable<S> iterable) {
         throw new UnsupportedOperationException();
     }
@@ -41,6 +36,16 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
     @Override
     public boolean existsById(Long aLong) {
         return false;
+    }
+
+    /**
+     * Returns all instances of the type.
+     *
+     * @return all entities
+     */
+    @Override
+    public Iterable<Movie> findAll() {
+        return null;
     }
 
     @Override

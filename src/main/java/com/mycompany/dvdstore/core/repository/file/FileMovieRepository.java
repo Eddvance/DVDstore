@@ -45,30 +45,6 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     }
 
     @Override
-    public Iterable<Movie> findAll() {
-        List<Movie> movies = new ArrayList<>();
-
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-            for (String line; (line = br.readLine()) != null; ) {
-                final Movie movie = new Movie();
-                final String[] allProp = line.split("\\;");
-                movie.setId(Long.parseLong(allProp[0]));
-                movie.setTitle(allProp[1]);
-                movie.setGenre(allProp[2]);
-                movies.add(movie);
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NumberFormatException nb) {
-            System.err.println("A movie from the file does not have a proper id");
-            nb.printStackTrace();
-        }
-        return movies;
-    }
-
-    @Override
     public Optional<Movie> findById(Long id) {
         final Movie movie = new Movie();
         movie.setId(id);
@@ -103,6 +79,30 @@ public class FileMovieRepository implements MovieRepositoryInterface {
     }
 
     @Override
+    public Iterable<Movie> findAll() {
+        List<Movie> movies = new ArrayList<>();
+
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            for (String line; (line = br.readLine()) != null; ) {
+                final Movie movie = new Movie();
+                final String[] allProp = line.split("\\;");
+                movie.setId(Long.parseLong(allProp[0]));
+                movie.setTitle(allProp[1]);
+                movie.setGenre(allProp[2]);
+                movies.add(movie);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (NumberFormatException nb) {
+            System.err.println("A movie from the file does not have a proper id");
+            nb.printStackTrace();
+        }
+        return movies;
+    }
+
+    @Override
     public <S extends Movie> Iterable<S> saveAll(Iterable<S> iterable) {
         throw new UnsupportedOperationException();
     }
@@ -127,9 +127,14 @@ public class FileMovieRepository implements MovieRepositoryInterface {
         throw new UnsupportedOperationException();
     }
 
+    /**
+     * Deletes the given entities.
+     *
+     * @param entities must not be {@literal null}. Must not contain {@literal null} elements.
+     * @throws IllegalArgumentException in case the given {@literal entities} or one of its entities is {@literal null}.
+     */
     @Override
-    public void deleteAll(Iterable<? extends Movie> iterable) {
-        throw new UnsupportedOperationException();
+    public void deleteAll(Iterable<? extends Movie> entities) {
     }
 
     @Override

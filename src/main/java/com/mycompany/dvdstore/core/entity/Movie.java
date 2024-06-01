@@ -1,23 +1,31 @@
 package com.mycompany.dvdstore.core.entity;
 
+import org.springframework.data.jpa.repository.EntityGraph;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@NamedEntityGraph(name="movie.actor-and-reviews",attributeNodes = {@NamedAttributeNode("mainActor"),@NamedAttributeNode("reviews")})
 public class Movie {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(nullable = false, length = 20)
     private String title;
+
     @Column(nullable = false, length = 20)
     private String genre;
+
     private String description;
+
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "ID_MAIN_ACTOR")
     private Actor mainActor;
+
     @ManyToMany
     @JoinTable(
             name = "MOVIE_SEC_ACTORS",
@@ -26,22 +34,33 @@ public class Movie {
     )
     private List<Actor> secondaryActors = new ArrayList<>();
 
-    @OneToMany(
-            fetch = FetchType.LAZY,
-            orphanRemoval = true,
-            mappedBy = "movie"
-    )
-private List<Review> reviews = new ArrayList<>();
-
-    public Movie() {}
-
-    public Movie(long id, String title, String genre, String description, Actor mainActor, List<Actor> secondaryActors, List<Review> reviews) {
+    public Movie(Long id, String title, String genre, String description, Actor mainActor) {
         this.id = id;
         this.title = title;
         this.genre = genre;
         this.description = description;
         this.mainActor = mainActor;
     }
+
+    @OneToMany(
+            fetch = FetchType.LAZY,
+            orphanRemoval = true,
+            mappedBy = "movie"
+    )
+
+    private List<Review> reviews = new ArrayList<>();
+
+    public Movie() {}
+
+    /* public Movie(long id, String title, String genre, String description, Actor mainActor, List<Actor> secondaryActors, List<Review> reviews) {
+        this.id = id;
+        this.title = title;
+        this.genre = genre;
+        this.description = description;
+        this.mainActor = mainActor;
+        this.secondaryActors = secondaryActors;
+        this.reviews = reviews;
+    }*/
 
     public Movie(long id, String title, String genre) {
         this.id = id;

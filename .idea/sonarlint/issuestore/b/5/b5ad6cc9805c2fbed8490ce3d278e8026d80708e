@@ -1,13 +1,15 @@
 
 
-java:S1192^"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8²´ñËû1J$dfc8643b-7425-45bd-a8e3-1f94c15fd3cf
+java:S1192F"GDefine a constant instead of duplicating this literal "UNKNOW" 3 times.(ºÉ¤¼şÿÿÿÿ8…«ÖŸı1J$d9f6b88f-6c15-40b9-8cc9-77fab5eab321
 
-java:S2095#"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8¶ÿØÔû1J$90eb2d8d-c927-4a4d-99c4-d8f6de87615a
-ƒ	java:S125'"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8Ç´ñËû1J$ec5dab48-7c15-4eee-ae69-3265cc4f47a8
-m	java:S106+"+Replace this use of System.out by a logger.(«ù¡à8È´ñËû1J$37721fad-2a69-4469-856f-9c7f29c1d5ec
+java:S2095#"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÁÀƒøÿÿÿÿ8…«ÖŸı1J$a5995d11-083f-4741-b374-7f4636a7f26b
+Å
+java:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ò†Õ¾8¦‚»¡ı1J$55f380e9-38da-4f37-a100-a1d1b42768fc
+ƒ	java:S125'"<This block of commented-out lines of code should be removed.(úÖ’ÿÿÿÿÿ8…«ÖŸı1J$2f8fbbc9-830d-4b87-8f06-8e09ddb4c200
+m	java:S106+"+Replace this use of System.out by a logger.(«ù¡à8…«ÖŸı1J$ccac36c3-f228-4f71-b1f0-9fef0c2d11ed
 ‡
-java:S2147>"DCombine this catch with the one at line 60, which has the same body.(ï­£Ä8Ë´ñËû1J$aa5594da-a5b7-4094-8e6d-0ee621131661
-m	java:S106A"+Replace this use of System.err by a logger.(¨ûÄ8İ´ñËû1J$6967bc44-036c-4266-a4c5-c7cd87225c1b
+java:S2147@"DCombine this catch with the one at line 62, which has the same body.(ï­£Ä8…«ÖŸı1J$4c580d4b-cbfa-4dd3-9d22-3b23dda9e20c
+m	java:S106C"+Replace this use of System.err by a logger.(¨ûÄ8…«ÖŸı1J$bbb146f4-bb80-4794-8b97-c57a368001c9
 ‡
-java:S2147X"DCombine this catch with the one at line 86, which has the same body.(ï­£Ä8Ş´ñËû1J$ef032842-6771-4743-b52d-c7077e4499bd
-m	java:S106["+Replace this use of System.err by a logger.(¨ûÄ8á´ñËû1J$5f905dca-cb16-4ac8-8122-796c48e8a0da
+java:S2147`"DCombine this catch with the one at line 94, which has the same body.(ï­£Ä8…«ÖŸı1J$09b37a79-81b2-473c-9a67-fff763fe347c
+m	java:S106c"+Replace this use of System.err by a logger.(¨ûÄ8…«ÖŸı1J$b0ab2f52-b020-4c3b-9a0b-73e76b1f9cd9

@@ -9,15 +9,20 @@ public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String reviewComment;
+
     @Column(nullable = false)
     private Short mark;
-    @ManyToOne(fetch = FetchType.LAZY,optional = false)
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "ID_MOVIE")
     private Movie movie;
-    @ManyToOne(fetch = FetchType.LAZY,optional = false)
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "ID_REVIEWER")
-   private User reviewer;
+    private User reviewer;
+
 
     public Long getId() {
         return id;

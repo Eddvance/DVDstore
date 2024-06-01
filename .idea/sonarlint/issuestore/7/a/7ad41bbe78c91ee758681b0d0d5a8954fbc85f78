@@ -1,6 +1,6 @@
 
 „
-java:S4973%"<Strings and Boxed types should be compared using "equals()".(ùòÄÏûÿÿÿÿ8ÓÿØÔû1J$b45d6878-526c-4278-9cab-fdca68c7c355
+java:S4973 "<Strings and Boxed types should be compared using "equals()".(ùòÄÏûÿÿÿÿ8¢ÀÙŸı1J$ba45af6e-bb22-410d-9ab9-4aed3d310d22
 y
-java:S2696"6Make the enclosing method "static" or remove this set.(ŒûàÒ8•´ÚĞû1J$61e0ea6f-3200-4c45-a55f-de5a5c271a4b
-r	java:S106"+Replace this use of System.out by a logger.(¼ó‹ëúÿÿÿÿ8–´ÚĞû1J$9d70e4b8-03fb-4a1d-893e-02b6ddf15cb0
+java:S2696"6Make the enclosing method "static" or remove this set.(ŒûàÒ8¢ÀÙŸı1J$9faecc75-6636-4ecb-8d35-36ed1daf0cd2
+r	java:S106"+Replace this use of System.out by a logger.(¼ó‹ëúÿÿÿÿ8¢ÀÙŸı1J$cd7aeb7d-42a9-4ac6-8e43-a13f564cfaab
