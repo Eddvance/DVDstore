@@ -3,10 +3,12 @@ package com.mycompany.dvdstore.core.service;
 import com.mycompany.dvdstore.core.entity.Movie;
 import com.mycompany.dvdstore.core.repository.MovieRepositoryInterface;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
+@Transactional
 @Service
 public class DefaultMovieService implements MovieServiceInterface {
 
